@@ -18,3 +18,14 @@ lib/
 *_LOCAL_*
 *_REMOTE_*
 *.swp
+
+#Edit [K]
+_x*/
+*.csv        
+*.wcfg
+*.wdb
+*.csv
+*.str
+*.run_summary
+.ipcache/
+build_dir*/
