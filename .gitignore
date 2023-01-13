@@ -33,3 +33,7 @@ build_dir*/
 .metadata/
 RemoteSystemsTempFiles/
 hd_visual/
+solution/
+.*
+plram_access #binary file
+rtl_vadd #binary file
