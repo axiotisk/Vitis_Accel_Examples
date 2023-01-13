@@ -93,7 +93,7 @@ xclbin: build
 ############################## Setting Rules for Binary Containers (Building Kernels) ##############################
 $(TEMP_DIR)/mmult.xo: src/mmult.cpp
 	mkdir -p $(TEMP_DIR)
-	v++ $(VPP_FLAGS) -c -k mmult --temp_dir $(TEMP_DIR)  -I'$(<D)' -o'$@' '$<'
+	v++ $(VPP_FLAGS) -c -k mmult --temp_dir $(TEMP_DIR)  -I'$(<D)' -o'$@' '$<' --hls.pre_tcl hls_config.tcl
 
 $(BUILD_DIR)/mmult.xclbin: $(TEMP_DIR)/mmult.xo
 	mkdir -p $(BUILD_DIR)
