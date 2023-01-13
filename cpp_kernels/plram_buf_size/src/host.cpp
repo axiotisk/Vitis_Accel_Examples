@@ -33,7 +33,7 @@ memory resources managed by the Vitis memory subsystem.
 #include <stdlib.h>
 #include <vector>
 // Array Size to access
-#define DATA_SIZE 100 // 639*639=408321
+#define DATA_SIZE 250 // 639*639=408321
 
 // Binary File string
 std::string binaryFile;
@@ -202,7 +202,7 @@ int main(int argc, char** argv) {
     }
 
     bool match = true;
-    for (int k = 10; k <= 100; k +=10){
+    for (int k = 10; k <= 250; k +=30){
         for (int i = 0; i < DATA_SIZE * DATA_SIZE; i++) {
             source_cpu_results[i] = 0;
             source_fpga_results[i] = 0;

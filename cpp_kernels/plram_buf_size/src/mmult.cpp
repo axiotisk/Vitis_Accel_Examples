@@ -17,7 +17,7 @@
 #include <stdio.h>
 
 // Maximum Array Size
-#define MAX_SIZE 100
+#define MAX_SIZE 250
 
 // TRIPCOUNT identifier
 const unsigned int c_size = MAX_SIZE;
