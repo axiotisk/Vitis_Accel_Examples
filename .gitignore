@@ -37,3 +37,4 @@ solution/
 .*
 plram_access #binary file
 rtl_vadd #binary file
+*.json
