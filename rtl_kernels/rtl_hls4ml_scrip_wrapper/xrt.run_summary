@@ -1,0 +1,26 @@
+{
+    "schema_version": {
+        "major": "1",
+        "minor": "3",
+        "patch": "0"
+    },
+    "generation": {
+        "this_file": "\/home\/kaxiotis\/Vitis_Accel_Examples\/rtl_kernels\/rtl_hls4ml_scrip_wrapper\/xrt.run_summary",
+        "source": "vp",
+        "PID": "119094",
+        "timestamp": "1681375654072",
+        "flags": [
+            ""
+        ]
+    },
+    "files": [
+        {
+            "name": "opencl_trace.csv",
+            "type": "VP_TRACE"
+        },
+        {
+            "name": "device_trace_0.csv",
+            "type": "VP_TRACE"
+        }
+    ]
+}
